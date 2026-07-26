@@ -1,0 +1,163 @@
+:root {
+    --main-size-width: 800px;
+    --main-size-height: 800px;
+    --main-plase-x: calc(var(--main-size-width) / 2);
+    --main-plase-y: calc(var(--main-size-height) / 2);
+    --text-box-size-width: 40%;
+    --text-box-size-height: 40%;
+
+    --main-color: #9c9c9c;
+    --text-color: #bfcaff;
+    --bag-color: #131313;
+    --border-color: #000090;
+    --textbox-bag-color: #000010;
+
+    --text-size: 16px;
+    --border-size: 2px;
+}
+
+body {
+    background-color: var(--bag-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    /* size */
+    width: var(--main-size-width);
+    height: var(--main-size-height);
+    /*decoration*/
+}
+
+#title_text {
+    /* place */
+    position: absolute;
+    top: 6%;
+    /* calc(var(--main-size-width - calc(var(--main-size-width) / 4%))) */
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+#setlang_radio {
+    /* place */
+    position: absolute;
+    top: 18%;
+    left: var(--main-plase-x);
+    transform: translate(-50%, 0);
+    /* size */
+    width: 80%;
+    /* height: calc(var(--main-size-height / 90%)); */
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+#setlang_radio label {
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+}
+
+#text_input {
+    /* textarea */
+    resize: auto;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 10px;
+    min-height: 10px;
+    /* size */
+    width: var(--text-box-size-width);
+    height: var(--text-box-size-height);
+    /* place */
+    position: absolute;
+    top: 54%;
+    left: 4%;
+    transform: translate(0, -50%);
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+
+    background-color: var(--textbox-bag-color);
+    box-sizing: border-box;
+    font-size: var(--text-size);
+    color: var(--text-color);
+
+}
+
+#text_output {
+    /* textarea */
+    resize: auto;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 10px;
+    min-height: 10px;
+    /* size */
+    width: var(--text-box-size-width);
+    height: var(--text-box-size-height);
+    /* place */
+    position: absolute;
+    top: 54%;
+    right: 4%;
+    transform: translate(0, -50%);
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+    background-color: var(--textbox-bag-color);
+    box-sizing: border-box;
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+#setsize_radio {
+    /* place */
+    position: absolute;
+    top: 77%;
+    left: var(--main-plase-x);
+    transform: translate(-50%, 0);
+    /* size */
+    width: 80%;
+    /* height: calc(var(--main-size-height / 90%)); */
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+#setsize_radio label {
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+}
+
+#main_header {
+    /* place */
+    position: absolute;
+    bottom: 6%;
+    left: var(--main-plase-x);
+    transform: translate(-50%, -50%);
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+    font-size: var(--text-size);
+    color: var(--text-color);
+}

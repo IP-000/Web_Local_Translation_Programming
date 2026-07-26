@@ -1,0 +1,64 @@
+:root {
+    --main-color: #9c9c9c;
+    --text-color: #bfcaff;
+    --bag-color: #131313;
+    --border-color: #000090;
+    --textbox-bag-color: #000010;
+
+    --text-size: 14px;
+    --border-size: 2px;
+}
+
+body {
+    background-color: var(--bag-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title_text {
+    left: 50%;
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.main_text {
+    left: 50%;
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
+
+.main_bag {
+    left: 50%;
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+#main_url {
+    left: 100%;
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
