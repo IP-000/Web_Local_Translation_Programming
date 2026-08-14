@@ -71,6 +71,22 @@ body {
     border-width: var(--border-size);
 }
 
+#setlang_text {
+    /* place */
+    position: absolute;
+    top: 28%;
+    left: var(--main-plase-x);
+    transform: translate(-50%, 0);
+    /* text pleas */
+    text-align: center;
+    /*decoration*/
+    font-size: var(--text-size);
+    color: var(--text-color);
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--border-size);
+}
+
 #text_input {
     /* textarea */
     resize: auto;
